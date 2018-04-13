@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FireDream Steem Tools</title>
+  <meta name="generator" content="Google Web Designer 3.0.1.0319">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    .gwd-p-15k2 {
+      position: absolute;
+      width: 594px;
+      height: 52px;
+      font-family: Arial;
+      color: rgba(123, 71, 236, 0.99);
+      left: 37px;
+      top: 0px;
+      text-align: left;
+    }
+    .gwd-input-1i3h {
+      left: -17px;
+      top: -3px;
+    }
+    .gwd-input-apwz {
+      left: 10px;
+      top: 50px;
+      transform: translate3d(10px, 0px, 0px);
+      transform-style: preserve-3d;
+    }
+    .gwd-div-3jf8 {
+      position: absolute;
+      top: 68px;
+      left: 30px;
+      width: 150px;
+      height: 25px;
+    }
+    .gwd-div-nsx2 {
+      top: 100px;
+    }
+    .gwd-div-1emt {
+      top: 133px;
+    }
+    .gwd-div-15os {
+      left: 485px;
+      top: 50px;
+    }
+    .gwd-div-1ymq {
+      left: 239px;
+      top: 50px;
+    }
+    .gwd-div-5g2i {
+      left: 321px;
+      top: 50px;
+    }
+    .gwd-div-1u7b {
+      left: 416px;
+      top: 50px;
+    }
+    .gwd-div-kapn {
+      position: absolute;
+      left: 38px;
+      top: 152px;
+      background-image: none;
+      background-color: rgb(230, 226, 226);
+      overflow: auto;
+      height: 61.44%;
+      width: 30%;
+    }
+    .gwd-div-1trr {
+      position: absolute;
+      height: 31px;
+      width: 90px;
+      left: 583px;
+      top: 50px;
+    }
+    .gwd-div-5bqj {
+      position: absolute;
+      width: 202px;
+      height: 23px;
+      left: 37px;
+      top: 52px;
+    }
+    .gwd-input-1d4e {
+      width: 200px;
+      height: 18px;
+      left: 0px;
+      top: 0px;
+      transform: translate3d(0px, -5px, 0px);
+      transform-style: preserve-3d;
+      text-align: center;
+    }
+    .gwd-p-rff4 {
+      position: absolute;
+      left: 37px;
+      top: 130px;
+      width: 200px;
+      height: 22px;
+      transform-origin: 99.8281px -5.9137px 0px;
+      text-align: left;
+      color: rgb(129, 74, 248);
+    }
+    .gwd-div-1w3j {
+      position: absolute;
+      width: 200px;
+      height: 34px;
+      left: 166px;
+      top: 118px;
+    }
+    .gwd-input-cega {
+      width: 150px;
+      font-size: 16px;
+      font-weight: normal;
+      height: 30px;
+    }
+    .footer {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      height: 60px;
+      width: 100%;
+      color: white;
+      background-image: none;
+      background-color: rgb(28, 28, 239);
+      text-align: left;
+      font-size: 12px;
+    }
+    .gwd-strong-134a {
+      font-size: 14px;
+    }
+    .gwd-div-5hrl {
+      position: absolute;
+      left: 485px;
+      top: 152px;
+      background-image: none;
+      background-color: rgb(230, 226, 226);
+      overflow: auto;
+      text-align: left;
+      height: 61.44%;
+      width: 60%;
+    }
+    .gwd-strong-7xuq {
+      left: 489px;
+      top: 130px;
+    }
+    .gwd-div-1xcx {
+      height: 30px;
+      left: 10.22%;
+      top: 85.76%;
+    }
+    .gwd-input-1d83 {
+      left: 0px;
+      top: 5px;
+      height: 25px;
+    }
+  </style>
+</head>
+
+<body class="htmlNoPages">
+  <h1 class="gwd-p-15k2">Steem Stalker</h1>
+  <div class="gwd-div-3jf8 gwd-div-1ymq" id="radio_1">
+    <input type="checkbox" id="upvote">Upvote<br>
+    
+  </div>
+  <div class="gwd-div-3jf8 gwd-div-nsx2 gwd-div-5g2i" id="radio_2">
+    <input type="checkbox" id="downvote">Downvote<br>
+    
+  </div>
+  <div class="gwd-div-3jf8 gwd-div-nsx2 gwd-div-1emt gwd-div-1u7b" id="radio_3">
+    <input type="checkbox" id="post">Post<br>
+    
+  </div>
+  <div class="gwd-div-3jf8 gwd-div-nsx2 gwd-div-1emt gwd-div-15os" id="radio_4">
+    <input type="checkbox" id="transfer">Transfers<br>
+    
+  </div>
+  <div class="gwd-div-kapn" id="name_container"></div>
+  <div class="gwd-div-1trr" id="add_button">
+    <input id="Start" type="button" value="Add User" onclick="add_user()">
+  </div>
+  <div class="gwd-div-5bqj" id="input_div">
+    <input type="text" id="username" value="username" class="gwd-input-1d4e gwd-gen-1esigwdanimation">
+  </div>
+  <script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+  <script>
+    steem.api.setOptions({
+      url: 'https://api.steemit.com'
+    });
+    var the_user = [];
+    var upvote = [];
+    var downvote = [];
+    var post = [];
+    var transfer = [];
+
+     // add user to user div with preferences  
+    function add_user() {
+
+      console.log("OK");
+      var user = document.getElementById("username").value;
+      console.log(user);
+
+      if (user == "") {
+        window.alert("Please enter a Steemit username");
+
+
+
+      }
+      if (user == "username") {
+        window.alert("Please enter a Steemit username");
+
+      }
+
+      if ((user != "") && (user != "username")) {
+        document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + user;
+        if (document.getElementById("upvote").checked) {
+          document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + "...upvote";
+
+        }
+        if (document.getElementById("downvote").checked) {
+          document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + "...downvote";
+        }
+        if (document.getElementById("post").checked) {
+          document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + "...post";
+        }
+
+        if (document.getElementById("transfer").checked) {
+          document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + "...transfer";
+        }
+
+
+        document.getElementById("name_container").innerHTML = document.getElementById("name_container").innerHTML + "<br />"
+        the_user.push(user);
+        upvote.push(document.getElementById("upvote").checked);
+        downvote.push(document.getElementById("downvote").checked);
+        post.push(document.getElementById("post").checked);
+        transfer.push(document.getElementById("transfer").checked);
+
+        document.getElementById("username").value = "";
+        document.getElementById("upvote").checked = false;
+        document.getElementById("downvote").checked = false;
+        document.getElementById("post").checked = false;
+        document.getElementById("transfer").checked = false;
+        //console.log(the_user, upvote, downvote, post, transfer);
+      }
+
+    }
+
+    function start_search() {
+      var release = steem.api.streamTransactions('head', function(err, result) {
+        console.log(result);
+        if (result.operations["0"]["0"] == 'transfer') {
+
+          document.getElementById("chain_info").innerHTML = "USER: " + result.operations["0"]["1"].from + " SENT: " + result.operations["0"]["1"].amount + " TO: " + result.operations["0"]["1"].to + " WITH MEMO: " + result.operations["0"]["1"].memo + " AT TIME (UTC): " + result.expiration;
+
+          if (the_user.includes(result.operations["0"]["1"].to)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].to)
+            if (transfer[ind]) {
+              console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " RECEIVED: " + result.operations["0"]["1"].amount + " FROM: " + result.operations["0"]["1"].from + " WITH MEMO: " + result.operations["0"]["1"].memo + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " received " + result.operations["0"]["1"].amount + " from " + result.operations["0"]["1"].from + " with memo " + result.operations["0"]["1"].memo + " at time " + result.expiration);
+
+            }
+            console.log(err, result);
+          }
+
+          if (the_user.includes(result.operations["0"]["1"].from)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].from)
+            if (transfer[ind]) {
+
+              console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " SENT: " + result.operations["0"]["1"].amount + " TO: " + result.operations["0"]["1"].to + " WITH MEMO: " + result.operations["0"]["1"].memo + " AT TIME(UTC): " + result.expiration + "<br />";
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "----------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " sent " + result.operations["0"]["1"].amount + " to " + result.operations["0"]["1"].to + " with memo " + result.operations["0"]["1"].memo + " at time " + result.expiration);
+
+
+
+            }
+            console.log(err, result);
+          }
+
+        }
+        // USER IS UPVOTED OR DOWNVOTED    
+        if (result.operations["0"]["0"] == 'vote') {
+
+
+
+          if ((the_user.includes(result.operations["0"]["1"].author)) && (result.operations["0"]["1"].weight > 0)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].author)
+            if (upvote[ind]) {
+              //console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " IS UPVOTED BY: " + result.operations["0"]["1"].voter + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " IS UPVOTED BY: " + result.operations["0"]["1"].voter + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration);
+
+            }
+            console.log(err, result);
+          }
+
+          if ((the_user.includes(result.operations["0"]["1"].author)) && (result.operations["0"]["1"].weight < 0)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].author)
+            if (downvote[ind]) {
+
+              console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " IS DOWNVOTED BY: " + result.operations["0"]["1"].voter + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " IS DOWNVOTED BY: " + result.operations["0"]["1"].voter + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration);
+
+
+
+
+            }
+            console.log(err, result);
+          }
+
+        }
+
+        // USER UPVOTES or DOWNVOTES   
+        if (result.operations["0"]["0"] == 'vote') {
+          if ((the_user.includes(result.operations["0"]["1"].voter)) && (result.operations["0"]["1"].weight > 0)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].voter)
+            if (upvote[ind]) {
+              //console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " UPVOTED: " + result.operations["0"]["1"].author + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " UPVOTED: " + result.operations["0"]["1"].author + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + the_user[ind] + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration);
+
+            }
+            console.log(err, result);
+          }
+
+          if ((the_user.includes(result.operations["0"]["1"].author)) && (result.operations["0"]["1"].weight < 0)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].voter)
+            if (downvote[ind]) {
+
+              console.log(err, result);
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " DOWNVOTED: " + result.operations["0"]["1"].author + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + result.operations["0"]["1"].author + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " DOWNVOTED: " + result.operations["0"]["1"].author + " WITH WEIGHT %: " + result.operations["0"]["1"].weight / 100 + " ON POST: https://steemit.com/@" + result.operations["0"]["1"].author + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration);
+
+
+
+
+            }
+            console.log(err, result);
+          }
+
+        }
+
+
+
+        // USER COMMENTS
+
+        if (result.operations["0"]["0"] == 'comment') {
+          if (the_user.includes(result.operations["0"]["1"].author)) {
+            var ind = the_user.indexOf(result.operations["0"]["1"].author)
+            if (post[ind]) {
+
+              if (err) {
+                start_search();
+              }
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + the_user[ind] + " POSTED: " + "THE POST: https://steemit.com/@" + result.operations["0"]["1"].author + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration + "<br />";
+
+              document.getElementById("info_tag").innerHTML = document.getElementById("info_tag").innerHTML + "---------------------------------------------------------------------------------------------------------------------------" + "<br />"
+
+              window.alert(the_user[ind] + " POSTED: " + "THE POST: https://steemit.com/@" + result.operations["0"]["1"].author + "/" + result.operations["0"]["1"].permlink + " AT TIME (UTC): " + result.expiration);
+
+            }
+
+          }
+
+
+
+        }
+
+
+
+
+
+      });
+
+
+
+
+
+
+
+    }
+    
+    function reset_div(){
+    the_user = [];
+    upvote = [];
+    downvote = [];
+    post = [];
+    transfer = [];
+      
+       document.getElementById("info_tag").innerHTML ="";
+      document.getElementById("name_container").innerHTML ="";
+      document.getElementById("username").value = "";
+        document.getElementById("upvote").checked = false;
+        document.getElementById("downvote").checked = false;
+        document.getElementById("post").checked = false;
+        document.getElementById("transfer").checked = false;
+      
+      
+    }
+    
+    
+    
+    
+  </script>
+  <strong class="gwd-p-rff4">Followed Users</strong>
+  <strong class="gwd-p-rff4 gwd-strong-7xuq">Information</strong>
+  <div class="gwd-div-1w3j" id="start_div">
+    <input id="follow" type="button" value="Start Following" class="gwd-input-cega" onclick="start_search()">
+  </div>
+  <div class="gwd-div-1w3j gwd-div-1xcx" id="clean_div">
+    <input id="clear" type="button" value="Clear" class="gwd-input-cega gwd-input-1d83 gwd-gen-okztgwdanimation" onclick="reset_div()">
+  </div>
+  <footer class="gwd-footer-1889">
+    <div class="footer">
+      <em class="gwd-strong-134a" id="chain_info"></em>
+    </div>
+  </footer>
+  <div class="gwd-div-5hrl" id="info_tag"></div>
+</body>
+
+</html>
